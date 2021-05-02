@@ -1,0 +1,48 @@
+.center {
+    text-align: center;
+    }
+
+    .center {
+        text-align: xx-large;
+        }
+    .center {
+        text-align: xx-large;
+        }
+    .center {
+        text-align: xx-large;
+        }
+
+
+p {
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: rgba(0, 207, 173, 0.795); }
+    50% { color: rgb(0, 255, 221); }
+    100% { color: rgb(200, 60, 255); }
+}
+@-moz-keyframes color-change {
+    0% { color: rgb(0, 183, 255); }
+    50% { color: rgb(0, 255, 115); }
+    100% { color: rgb(0, 216, 151); }
+}
+@-ms-keyframes color-change {
+    0% { color: rgba(0, 207, 173, 0.795); }
+    50% { color: rgb(0, 255, 221); }
+    100% { color: rgb(183, 0, 255); }
+}
+@-o-keyframes color-change {
+    0% { color: rgb(6, 173, 0); }
+    50% { color: rgb(0, 183, 255); }
+    100% { color: rgb(0, 216, 151); }
+}
+@keyframes color-change {
+    0% { color: rgba(0, 207, 173, 0.795); }
+    50% { color: rgb(0, 255, 221); }
+    100% { color: rgb(183, 0, 255); }
+}
